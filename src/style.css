@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box; /*Widths now include borders */
+}
+
+.calculator {
+  font-family: monospace;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30em;
+  height: 50em;
+}
+
+.calculator-iphone {
+  background-color: black;
+}
+
+.calculator-lean {
+  background-color: #b32862;
+}
+
+.row {
+  flex: 14%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-symbol {
+  font-size: 2.3em;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+}
+
+.arithmetic-output-window {
+  flex: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.arithmetic-output {
+  display: flex;
+  font-size: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  padding-right: 0.2em;
+}
+
+.arithmetic-output-iphone {
+  color: white;
+}
+
+.arithmetic-output-lean {
+  color: rgb(18, 230, 201);
+}
+
+.calculator-standard-button {
+  flex: 24.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-standard-button-iphone {
+  background-color: #d8d9db;
+}
+
+.calculator-standard-button-lean {
+  background-color: #942fa1;
+}
+
+.calculator-clear-button {
+  flex: 49.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-clear-button-iphone {
+  background-color: #d8d9db;
+}
+
+.calculator-clear-button-lean {
+  background-color: #942fa1;
+}
+
+.calculator-zero-button {
+  flex: 74.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-zero-button-iphone {
+  background-color: #d8d9db;
+}
+
+.calculator-zero-button-lean {
+  background-color: #942fa1;
+}
+
+.calculator-standard-button:hover {
+  background-color: #ebebeb;
+}
+
+.calculator-standard-button-lean:hover {
+  background-color: #e9a6f1;
+}
+
+.calculator-standard-button:active {
+  background-color: #bbbcbe;
+}
+
+.calculator-standard-button-lean:active {
+  background-color: #9b04a0;
+}
+
+.end-column-button-iphone {
+  background-color: #df974c;
+  color: white;
+}
+
+.end-column-button-lean {
+  background-color: #4cc2df;
+  color: white;
+}
+
+.end-column-button-iphone:hover {
+  background-color: #dfb07e;
+}
+
+.end-column-button-lean:hover {
+  background-color: #a1e0dd;
+}
+
+.end-column-button-iphone:active {
+  background-color: #dd8d37;
+}
+
+.end-column-button-lean:active {
+  background-color: #217aad;
+}
